@@ -30,3 +30,19 @@ phishing-detector/
  ├── templates/ 
             │ └── index.html 
 
+🔍 How It Works
+User inputs a URL
+
+extract_features() extracts characteristics (length, presence of @, hyphens, etc.)
+
+The trained model predicts Phishing or Legitimate
+
+SHAP explains which features contributed to the decision via a waterfall plot
+
+🖼️ Example Output
+⚠️ URL flagged as Phishing
+
+✅ URL marked as Legitimate
+
+🔍 SHAP Plot visualizes top features influencing decision
+![image](https://github.com/user-attachments/assets/40ec003e-808e-49b8-b4a5-fa5617a47a29)
