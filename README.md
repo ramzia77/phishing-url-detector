@@ -16,5 +16,17 @@ A machine learning-powered Flask web app that detects phishing URLs and visually
 ---
 
 ## 📁 Project Structure
-phishing-detector/ ├── app.py ├── dataset_phishing.csv ├── train_model.py ├── utils/ │ └── feature_extractor.py ├── model/ │ ├── phishing_model.pkl │ └── feature_names.pkl ├── static/ │ └── style.css ├── templates/ │ └── index.html └── README.md
+phishing-detector/ 
+├── app.py
+├── dataset_phishing.csv 
+├── train_model.py 
+├── utils/ │ 
+           └── feature_extractor.py
+├── model/ │ 
+           ├── phishing_model.pkl 
+           │ └── feature_names.pkl 
+├── static/ 
+ │ └── style.css 
+ ├── templates/ 
+            │ └── index.html 
 
