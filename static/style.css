@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+    color: #00ffff;
+    margin: 0;
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #121212;
+    padding: 2.5em;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.2), 0 0 10px rgba(0, 255, 255, 0.1) inset;
+    border: 1px solid rgba(0, 255, 255, 0.25);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: #00ffff;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 0 0 8px #00ffffaa;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+input[type="text"] {
+    padding: 0.9em 1.2em;
+    background: #1f1f1f;
+    border: 1px solid #00ffff66;
+    border-radius: 10px;
+    color: #00ffff;
+    font-size: 1.05em;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ffff88;
+    border-color: #00ffffaa;
+}
+
+button {
+    padding: 1em 2.5em;
+    background: linear-gradient(to right, #00ffff, #00bcd4);
+    color: #000;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(to right, #00e6e6, #00b8b8);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+}
+
+.result {
+    margin-top: 2.5em;
+    background: #1a1a1a;
+    padding: 1.5em;
+    border-radius: 12px;
+    border: 1px solid #00ffff33;
+    box-shadow: 0 0 12px rgba(0,255,255,0.15);
+    font-size: 1.1em;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.result p {
+    margin: 0.6em 0;
+}
+
+.result strong {
+    color: #ff4b5c;
+    text-shadow: 0 0 5px rgba(255,75,92,0.6);
+}
+
+img {
+    margin-top: 1.5em;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,255,255,0.25);
+    animation: fadeIn 0.5s ease-in-out;
+}

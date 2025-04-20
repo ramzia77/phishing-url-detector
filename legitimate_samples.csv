@@ -1,0 +1,5 @@
+length_url,length_hostname,domain_length,nb_dots,nb_hyphens,nb_at,nb_qm,nb_and,nb_or,nb_eq,nb_underscore,nb_percent,nb_slash,nb_star,nb_colon,nb_comma,nb_semicolumn,nb_dollar,nb_space,nb_www,nb_com,nb_dslash,ip,https,prefix_suffix,short_url,status
+47,25,20,2,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,1,1,0,1,0,0,0
+48,19,10,2,0,0,0,0,0,0,0,0,5,0,1,0,0,0,0,0,1,1,0,1,0,0,0
+32,13,6,3,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,0,0,1,0,1,0,0,0
+48,25,16,2,0,0,0,0,0,0,0,0,5,0,1,0,0,0,0,0,1,1,0,1,0,0,0
