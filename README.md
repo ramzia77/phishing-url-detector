@@ -1,11 +1,11 @@
 # phishing-url-detector
-# 🛡️ CyberShield – Phishing URL Detection with SHAP Explainability
+# CyberShield – Phishing URL Detection with SHAP Explainability
 
 A machine learning-powered Flask web app that detects phishing URLs and visually explains **why** it flagged a website using **SHAP (SHapley Additive exPlanations)**. Ideal for cybersecurity awareness, education, and threat analysis.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔍 Predicts whether a given URL is **Phishing** or **Legitimate**
 - 🧠 Powered by a trained ML model (e.g. Random Forest)
@@ -15,7 +15,7 @@ A machine learning-powered Flask web app that detects phishing URLs and visually
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 phishing-detector/ 
 ├── app.py
 ├── dataset_phishing.csv 
@@ -30,7 +30,7 @@ phishing-detector/
  ├── templates/ 
             │ └── index.html 
 
-🔍 How It Works
+ How It Works
 User inputs a URL
 
 extract_features() extracts characteristics (length, presence of @, hyphens, etc.)
